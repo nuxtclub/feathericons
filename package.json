@@ -1,0 +1,29 @@
+{
+    "name": "@nuxtclub/feathericons",
+    "author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
+    "license": "MIT",
+    "description": "An easy way to integrate Feather Icons with NuxtJS",
+    "version": "1.0.0",
+    "keywords": [
+        "nuxt",
+        "feathericons",
+        "module"
+    ],
+    "main": "lib/module.js",
+    "files": [
+        "lib",
+        "types/*.d.ts"
+    ],
+    "types": "types/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nuxtclub/feathericons.git"
+    },
+    "bugs": "https://github.com/nuxtclub/feathericons/issues",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "feather-icons": "^4.28.0"
+    }
+}
